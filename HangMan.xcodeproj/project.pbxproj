@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		329B271A2B04286E007A54FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329B27192B04286E007A54FC /* main.cpp */; };
+		329B27222B0428B0007A54FC /* WordList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329B27202B0428B0007A54FC /* WordList.cpp */; };
+		329B27252B04316F007A54FC /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329B27232B04316F007A54FC /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		329B27162B04286E007A54FC /* HangMan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HangMan; sourceTree = BUILT_PRODUCTS_DIR; };
 		329B27192B04286E007A54FC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		329B27202B0428B0007A54FC /* WordList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordList.cpp; sourceTree = "<group>"; };
+		329B27212B0428B0007A54FC /* WordList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordList.hpp; sourceTree = "<group>"; };
+		329B27232B04316F007A54FC /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		329B27242B04316F007A54FC /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				329B27192B04286E007A54FC /* main.cpp */,
+				329B27202B0428B0007A54FC /* WordList.cpp */,
+				329B27212B0428B0007A54FC /* WordList.hpp */,
+				329B27232B04316F007A54FC /* Game.cpp */,
+				329B27242B04316F007A54FC /* Game.hpp */,
 			);
 			path = HangMan;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329B27252B04316F007A54FC /* Game.cpp in Sources */,
 				329B271A2B04286E007A54FC /* main.cpp in Sources */,
+				329B27222B0428B0007A54FC /* WordList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

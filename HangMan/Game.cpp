@@ -46,7 +46,6 @@ void Game::MakeGuess(char letter)
     if (charPos == string::npos)
     {
         IncorrectGuessCount++;
-        return;
     }
     
     UpdateGuessAnswer(letter);

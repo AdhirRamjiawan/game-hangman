@@ -6,6 +6,7 @@
 //
 
 #include "WordList.hpp"
+#include <cstdlib>
 
 WordList::WordList()
 {
@@ -17,5 +18,7 @@ WordList::WordList()
 
 string WordList::SelectWord()
 {
-    return Words[0];
+    srand(time(0));
+    auto randomIndex = rand() % Words.size();
+    return Words[randomIndex];
 }
